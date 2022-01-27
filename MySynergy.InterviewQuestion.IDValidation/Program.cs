@@ -9,9 +9,6 @@ namespace MySynergy.InterviewQuestion.IDValidation
     {
         static void Main(string[] args)
         {
-            Stopwatch stopwatch = new Stopwatch();
-            
-
             Console.WriteLine("Please, enter ID: ");
             string idToCheck = Console.ReadLine();
 
@@ -21,8 +18,6 @@ namespace MySynergy.InterviewQuestion.IDValidation
                 return;
             }
             
-            stopwatch.Start();
-
             string DoB = BuildDoB(idToCheck);
 
             bool isValidString = IsIdValid(idToCheck);
@@ -39,8 +34,6 @@ namespace MySynergy.InterviewQuestion.IDValidation
                     Console.WriteLine("FALSE");
                     break;
             }
-            stopwatch.Stop();
-            Console.WriteLine("Ellapsed time is {0}", stopwatch.ElapsedMilliseconds);
         }
 
         static bool IsIdValid(string id)
