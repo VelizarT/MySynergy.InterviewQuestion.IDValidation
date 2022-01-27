@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySynergy.InterviewQuestion.IDValidation", "MySynergy.InterviewQuestion.IDValidation\MySynergy.InterviewQuestion.IDValidation.csproj", "{2574F7B3-D47F-498A-921F-F69AAA7A7CFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2574F7B3-D47F-498A-921F-F69AAA7A7CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2574F7B3-D47F-498A-921F-F69AAA7A7CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2574F7B3-D47F-498A-921F-F69AAA7A7CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2574F7B3-D47F-498A-921F-F69AAA7A7CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6975FBB4-1ED5-4CF4-9EEB-6223E75C7D4C}
+	EndGlobalSection
+EndGlobal
