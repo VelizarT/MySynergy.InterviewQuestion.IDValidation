@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace MySynergy.InterviewQuestion.IDValidation
 {
-    class Program
+    class IDValidator
     {
         static void Main(string[] args)
         {
